@@ -3,16 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore CSS</title>
+    <title>Document</title>
     <style>
-        p {
-            color: blueviolet;
+        *{
+            margin: 0;
+            
         }
+        #header{
+            color: brown;
+            background-color: aquamarine;
+            margin: 10 auto;
+            text-align: center;
+            
+        }
+        #hero{
+            margin: 100 auto;
+            align-items: center;
+            display: block;
+            justify-items: center;
+            background-color: bisque;
+            margin-top: 20px;
+            margin-left: 250px;
+            width: 400px;
+            border-radius: 15px;
+        }
+        .input {
+            margin: 50 auto;
+            align-items: center;
+            display: block;
+            justify-items: center;
+            padding: 10px;
+            
+        }
+        .second {
+            margin: 50 auto;
+            align-items: center;
+            display: block;
+            justify-items: center;
+            margin-top: 30px;
+            padding: 10px;
+        }
+        button{
+            margin: 50 auto;
+            align-items: center;
+            display: block;
+            justify-items: center;
+            background-color: aqua;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            padding: 6px;
+         }
+         #container{
+            background-color: rgb(143, 152, 119);
+            width: 360px;
+            margin: 50px auto;
+            margin-left: 250px;
+            padding: 20px;
+            border-radius: 15px;
+         }
+         h2{
+            text-align: center;
+            margin-bottom: 10px;
+         }
+         .btn{
+            background-color: bisque;
+            color: brown;
+            padding: 5px 10px;
+            margin-top: 15px;
+            margin-left: 120px;
+         }
     </style>
 </head>
 <body>
-    <h2 style="color: brown;">Hello CSS</h2>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>hello i am mahfuz</p>
+    <header id="header">This is header</header>
+    <div id="hero">
+        <h1 class="head">Hello world</h1>
+        <p class="lorem">Its practice time</p>
+        <p class="lorem">Lorem ipsum dolor sit amet.</p>
+        <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        
+        <input class="second" type="email" name="" id="" placeholder="Enter your email">
+        <br><br>
+        <input class="input" type="password" name="" id="" placeholder="Enter your password">
+        <br><br>
+        <button>Click me</button>
+    </div>
+    <div id="container">
+        <h2>This is our details</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad commodi beatae ab quos laudantium facere dolor recusandae repellendus perferendis, veritatis voluptate ea! Culpa, quis? Aliquid doloribus error officia nisi iusto.</p>
+        <button class="btn">Read More</button>
+
+    </div>
 </body>
 </html>
